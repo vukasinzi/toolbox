@@ -1,5 +1,6 @@
 from tools.random_challenge import run as random_challenge
 from tools.text_analyzer import run as text_analyzer
+from tools.developer_utilities import run as developer_utilities
 
 def coming_soon():
     print("Ovaj alat još nije povezan.")
@@ -14,5 +15,5 @@ TOOLS = {
     "7": ("URL & IP Tools", coming_soon),
     "8": ("Encryption Lab", coming_soon),
     "9": ("Random Challenge", random_challenge),
-    "10": ("Developer Utilities", coming_soon),
+    "10": ("Developer Utilities", developer_utilities),
 }

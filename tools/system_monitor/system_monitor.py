@@ -34,5 +34,3 @@ def run():
     show_usage("SYSTEM MONITOR",components)
 
 
-if __name__ == "__main__":
-    run()
